@@ -1,2 +1,2 @@
-# Advance_Java
-Advanced Java concepts learned over the past two months, including JDBC, Servlets, JSP, and MVC-based web application development
+# Spring Boot
+I understand core Spring Boot concepts and have implemented a Diary Management System to manage user entries with CRUD operations.
