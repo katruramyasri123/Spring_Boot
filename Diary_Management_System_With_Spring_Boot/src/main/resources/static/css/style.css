@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* MAIN SECTIONS */
+.sec1,
+.sec2 {
+    width: 40%;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.side {
+    width: 400px;
+    height: auto;
+}
+
+/* FORM */
+h4,p {
+    color: red;
+    
+}
+h3{
+	color:violet;
+}
+
+input {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+span {
+    color: blue;
+    cursor: pointer;
+}
+.diary-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.diary-table th,
+.diary-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.diary-table th {
+    background-color: #f2f2f2;
+}
+
+.diary-table a {
+    text-decoration: none;
+    color: red;
+    padding: 6px 10px;
+}
+
+.diary-table a:hover {
+    text-decoration:underline;
+    font-size:20px;
+    color:blue;
+}
+.homeheader{
+	display:flex;
+	justify-content:space-between;
+	margin-right:30px;
+}
+
+.past{
+	display:flex;
+	justify-content:space-between;
+	margin-right:30px;
+	
+	
+}
+.add{
+	text-decoration:none;
+    text-align: center;
+    color:blue;
+    width:10%;
+    
+	}
